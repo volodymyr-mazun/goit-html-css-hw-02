@@ -1,0 +1,141 @@
+/* GLOBAL STYLES */
+body{
+    background-color:#ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* HEADER SECTION */
+.header {}
+
+.header-nav {}
+
+.logo {}
+
+.logo-accent {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {}
+
+.contacts {}
+
+.contacts-list {}
+
+.contacts-item {}
+
+.contacts-link {}
+
+/* HERO SECTION */
+.hero {}
+
+.hero-title {}
+
+.hero-button {}
+
+/* BENEFITS SECTION */
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-subtitle {}
+
+.benefits-text {}
+
+/* TEAM SECTION */
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-image {}
+
+.team-content {}
+
+.team-subtitle {}
+
+.team-text {}
+
+/* PORTFOLIO SECTION */
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-image {}
+
+.portfolio-content {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
+
+/* FOOTER SECTION */
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
