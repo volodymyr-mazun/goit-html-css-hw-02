@@ -1,7 +1,9 @@
 /* GLOBAL STYLES */
-body{
-    background-color:#ffffff;
+body {
+    background-color: #ffffff;
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     color: #434455;
     margin: 0;
     padding: 0;
@@ -57,19 +59,43 @@ button {
 }
 
 /* HEADER SECTION */
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-nav {}
 
-.logo {}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
 
-.logo-accent {}
+.logo-accent {
+    color: #4d5ae5;
+}
 
 .nav-list {}
 
 .nav-item {}
 
-.nav-link {}
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
 
 .contacts {}
 
@@ -77,14 +103,52 @@ button {
 
 .contacts-item {}
 
-.contacts-link {}
+.contacts-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
 
 /* HERO SECTION */
-.hero {}
+.hero {
+    background-color: #2e2f42;
+}
 
-.hero-title {}
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
 
-.hero-button {}
+.hero-button {
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
 
 /* BENEFITS SECTION */
 .benefits {}
@@ -95,31 +159,76 @@ button {
 
 .benefits-item {}
 
-.benefits-subtitle {}
+.benefits-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.benefits-text {}
+.benefits-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* TEAM SECTION */
-.team {}
+.team {
+    background-color: #f4f4fd;
+}
 
-.team-title {}
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
 .team-image {}
 
 .team-content {}
 
-.team-subtitle {}
+.team-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
-.team-text {}
+.team-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
 
 /* PORTFOLIO SECTION */
 .portfolio {}
 
-.portfolio-title {}
+.portfolio-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
 .portfolio-list {}
 
@@ -129,13 +238,31 @@ button {
 
 .portfolio-content {}
 
-.portfolio-subtitle {}
+.portfolio-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-.portfolio-text {}
+.portfolio-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* FOOTER SECTION */
-.footer {}
+.footer {
+    background-color: #2e2f42;
+}
 
-.footer-logo {}
+.footer-logo {
+    color: #f4f4fd;
+}
 
-.footer-text {}
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
